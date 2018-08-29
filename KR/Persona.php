@@ -5,10 +5,10 @@ echo "Hello World!";
 
     class Persona
     {
-        var $nombre;
-        var $apellido;
+        public  $nombre;
+        public $apellido;
         
-        public Persona(var  $name, var $apellido)
+        public Persona($name,$apellido)
         {
             $this->$nombre = $name;
             $this->$apellido = $apellido;
